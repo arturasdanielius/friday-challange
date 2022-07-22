@@ -4,6 +4,7 @@
     width: 100px;
     height: 100vh;
     background-color: var(--menu-color);
+    position: fixed;
 }
 .head:hover {
     width: 200px;
@@ -43,8 +44,13 @@ nav > div {
     padding-top: 20px;
     padding-bottom: 20px;
     border-radius:50px 0 0 50px;
-    margin-left: 10px;
+    margin-left: 5%;
     background-color: #fff;
+}
+.head:hover .home {
+    /* border: 1px solid red; */
+    width: ;
+    
 }
 
 .pics {
@@ -59,12 +65,13 @@ nav > div {
 
 .head:hover .txt {
 display: inline-block;
-margin-left: 10px;  
+padding-left: 10px;  
 }
 
 .head:hover .magic {
     justify-content: flex-start;
     margin-left: 30px;
+
 }
 
 .magic {
@@ -74,6 +81,39 @@ margin-left: 10px;
 /* header end */
 
 /* main start*/
+.bodyclass {
+
+}
+
+.content{
+    width: calc(100% - 100px);
+    display:flex;
+    flex-direction: column  ;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.content > img {
+width: 100%;
+height: auto;
+object-fit: contain;
+}
+
+.txt-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+}
+.vardas{
+    border: 1px solid red;
+}
+
+.time{
+    border: 1px solid red;
+}
+
+
 
 /* main end*/
 
