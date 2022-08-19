@@ -21,7 +21,7 @@
     margin-bottom: 24px;
 }
 
-hr {
+.hr-top{
     width: 60%;
     margin-left: auto;
     margin-right: auto;
@@ -46,15 +46,6 @@ nav > div {
     border-radius:50px 0 0 50px;
     margin-left: 5%;
     background-color: #fff;
-}
-.head:hover .home {
-    /* border: 1px solid red; */
-    width: ;
-    
-}
-
-.pics {
-
 }
 
 .txt {
@@ -102,20 +93,119 @@ object-fit: contain;
 .txt-home {
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 120px;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    height: 200px;
+    align-content: center;
+    width: 85%;
 }
 .vardas{
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    font-size: 25px;
+    width: 250px;
+    margin-top: 50px;
 }
 
 .time{
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 20px 100px;
+    height: 130px;
+    margin-top: 50px;
+    font-size: 25px;
 }
 
+.time > h3 {
+    font-size: 29px;
+    color:#02577A;
+}
+.citation {
+    font-size: 20px;
+    border: 2px solid #02577A;
+    border-radius: 25px;
+    width: 900px;
+    margin-left:-150px;
+    margin-top: 50px;
+    padding: 40px 100px;
+    text-align: center;
+    justify-self: center;
 
+}
 
 /* main end*/
 
 /* footer start*/
-/* footer end*/
+.futeriukas{
+    display: flex;
+    flex-direction: column;
+}
+.hr-bottom{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #02577A;
+    background-color: #02577A;
+    margin-top: 30px;
+    width: 350px;
+}
+footer > div > p {
+    text-align: center;
+    line-height: 30px;
+}
+
+@media (max-width: 1160px) {
+   
+
+    .citation{
+        width: 600px;
+    }
+}
+
+@media (max-width: 895px){
+    .citation{
+        width: 300px;
+        padding: 40px 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    
+    .txt-home {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        /* border: 2px solid black; */
+        height: 200px;
+        align-content: center;
+        width: 85%;
+    }
+    .vardas{
+        /* border: 1px solid red; */
+        font-size: 25px;
+        width: 300px;
+        margin-top: 10px;
+    }
+    .time{
+        /* border: 1px solid red; */
+        background-color: #fff;
+        border-radius: 25px;
+        padding: 5px;
+        height: 130px;
+        margin-top: 10px;
+        font-size: 25px;
+    }
+    .hr-bottom {
+        /* width: 60%; */
+        width: calc(50% - 100px);
+        display:flex;
+        flex-direction: column  ;
+        align-items: center;
+        margin-left: calc(50% - 100px);
+        margin-right: 10%;
+    }
+    .futeriukas > p {
+        width: 50%;
+        /* margin: 10px calc(100% - 100px); */
+    }
+}
