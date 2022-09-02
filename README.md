@@ -12,7 +12,7 @@ This project is for educational purposes only. Pull request are welcome, but pri
 
 Site published at: https://arturasdanielius.github.io/friday-challenge/
 
-Design: [Friday Challe  nge](https://www.figma.com/file/uaVXnAQh9QxVsUD1RcQEbt/Friday-Challenge?node-id=0%3A1)
+Design: [Friday Challenge](https://www.figma.com/file/uaVXnAQh9QxVsUD1RcQEbt/Friday-Challenge?node-id=0%3A1)
 
 ## Project features
 
