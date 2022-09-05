@@ -4,7 +4,7 @@ function sveiki(){
 const date = new Date();
 const currentTime = date.getHours();
 
-if (currentTime > 23 && currentTime <= 4) {
+if (currentTime > 0 && currentTime <= 4) {
     document.getElementById('hi').innerText = "It is Night time, Artūras";
 } else if (currentTime > 4 && currentTime <= 12) {
     document.getElementById('hi').innerText = "Good Morning, Artūras";
