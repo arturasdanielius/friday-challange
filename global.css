@@ -1,3 +1,6 @@
+@import './styles/layout.css';
+@import './styles/calendar.css';
+
 
 :root {
     --menu-color:#F7F6FF;
